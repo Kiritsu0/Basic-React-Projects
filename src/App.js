@@ -1,6 +1,7 @@
 import StarRating from "./components/star-rating"
 import ImageSlider from "./components/image-slider";
 import LoadMoreData from "./components/load-more-data";
+import QRCodeGenerator from "./components/qr-code-generator";
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
 
       {/* <ImageSlider url={'https://picsum.photos/v2/list'} limit={'10'} page={'1'}/> */}
 
-      <LoadMoreData />
+      {/* <LoadMoreData /> */}
+
+      <QRCodeGenerator />
     </div>
   );
 }
