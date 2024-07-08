@@ -2,6 +2,7 @@ import StarRating from "./components/star-rating"
 import ImageSlider from "./components/image-slider";
 import LoadMoreData from "./components/load-more-data";
 import QRCodeGenerator from "./components/qr-code-generator";
+import ScrollIndicator from "./components/scroll-indicator";
 
 function App() {
   return (
@@ -12,7 +13,10 @@ function App() {
 
       {/* <LoadMoreData /> */}
 
-      <QRCodeGenerator />
+      {/* <QRCodeGenerator /> */}
+
+      <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} />
+
     </div>
   );
 }
