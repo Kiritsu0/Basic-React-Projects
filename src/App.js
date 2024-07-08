@@ -4,6 +4,7 @@ import LoadMoreData from "./components/load-more-data";
 import QRCodeGenerator from "./components/qr-code-generator";
 import ScrollIndicator from "./components/scroll-indicator";
 import GithubProfileFinder from "./components/github-profile-finder";
+import SearchAutocomplete from "./components/search-autocomplete-withapi";
 
 function App() {
   return (
@@ -18,8 +19,9 @@ function App() {
 
       {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} /> */}
 
-      <GithubProfileFinder />
+      {/* <GithubProfileFinder /> */}
 
+      <SearchAutocomplete />
     </div>
   );
 }
