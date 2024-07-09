@@ -5,6 +5,7 @@ import QRCodeGenerator from "./components/qr-code-generator";
 import ScrollIndicator from "./components/scroll-indicator";
 import GithubProfileFinder from "./components/github-profile-finder";
 import SearchAutocomplete from "./components/search-autocomplete-withapi";
+import UseOnclickOutsideTest from "./components/use-outside-click/test";
 
 function App() {
   return (
@@ -21,7 +22,9 @@ function App() {
 
       {/* <GithubProfileFinder /> */}
 
-      <SearchAutocomplete />
+      {/* <SearchAutocomplete /> */}
+
+      <UseOnclickOutsideTest />
     </div>
   );
 }
